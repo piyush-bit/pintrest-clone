@@ -1,0 +1,66 @@
+.layout {
+    height: 110px;
+    min-width: 300px;
+    background-color: #9f978c;
+    border-radius: 20px;
+    position: relative;
+}
+.layout>img {
+    height: 72px;
+    width: 54px;
+    object-fit: fill;
+    border-radius: 15px;
+    border: 1px white solid;
+    position: absolute;
+}
+
+.b {
+    left: 30px;
+    top: 20px;
+    transform-origin: 50% 100%;
+    transform: rotate(-25deg);
+
+}
+
+.c {
+    left: 30px;
+    top: 20px;
+    transform-origin: 50% 100%;
+}
+
+.d {
+    left: 30px;
+    top: 20px;
+    transform-origin: 50% 100%;
+    transform: rotate(25deg);
+
+}
+
+.layout > p{
+    position: absolute;
+    left: 135px;
+    top : 50%;
+    transform: translate(0 , -50%);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.layout:hover .b{
+    scale: 1.1;
+    transform: rotate(-35deg);
+   
+}
+.layout:hover .c{
+    scale: 1.1;
+   
+}
+.layout:hover .d{
+    scale: 1.1;
+    transform: rotate(35deg);
+   
+}
+.layout:hover {
+    background-color: antiquewhite;
+    
+   
+}
